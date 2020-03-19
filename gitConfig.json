@@ -1,0 +1,13 @@
+[
+    {
+        "project_name":"这里写仓库名称",
+        "old_gitla":"这里写项目老的gitlab地址",
+        "new_gitla":"这里写项目新的gitlab地址"
+    },
+    {
+        "project_name":"xxxx",
+        "old_gitla":"https://xxxx/xxx.git",
+        "new_gitla":"https://xxx/xxxx.git"
+    }
+
+]
