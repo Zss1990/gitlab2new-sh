@@ -2,6 +2,9 @@
 根据配置文件迁移gitlab到新仓库shell脚本
 # 简介
 通过脚本完成，从老的gitlab仓库迁移代码到新的gitlab仓库，包括所有的分支、tag、提交记录的迁移；
+# 环境
+需要安装`jq`json解析工具
+执行`brew install jq`
 # 使用
 ## 配置
 ### 1. 配置`gitConfig.json`,把需要迁移的项目库配置进去
