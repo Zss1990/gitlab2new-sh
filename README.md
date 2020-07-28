@@ -46,3 +46,9 @@ error: failed to push some refs to 'https://gitlabnewxxxxx.git'
 cd到sh脚本所在目录，执行`sh gitSh.sh`
 
 ## 结束啦！打开新仓库吧！
+# QA：
+1. 如果有某个库过大可能会报类似下面的错误：
+```
+error: RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 fatal: the remote end hung up unexpectedly
+```
+那么请使用SHH连接代替http/https链接就可以了
